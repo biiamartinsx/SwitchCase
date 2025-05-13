@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    padding: 20px;
+    background-color: white;    
+}
+
+h1 {
+    color: #333;
+    font-size: 80px;
+    font-family: cursive;
+
+}
+
+.buttons-container {
+    
+    margin-top: 20px;
+    font-size: 40px;
+
+}
+
+button {
+    background-color: hotpink;
+    height: 70px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
