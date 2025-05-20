@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let operador = (prompt("escolha um operador:+,-,*,/."));
+        let nuumero1 = parseInt(prompt("Coloque o primeiro valor."));
+        let nuumero2 = parseInt(prompt("Coloque o segundo valor."));
+        let resultado;
+
+        switch (operador){
+            case '+':resultado = nuumero+nuumero2;
+            break;
+
+            case '-':resultado = nuumero-nuumero2;
+            break;
+
+            case '*':resultado = nuumero*nuumero2;
+            break;
+
+            case '/':resultado = nuumero/nuumero2;
+            break;
+
+            default: resultado = ("operador invalido.")
+
+        }
+
+        alert("o resultado é"+ resultado)
+    
+    </script>
+</body>
+</html>
