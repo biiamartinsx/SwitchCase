@@ -10,30 +10,44 @@
 <body>
     <script>
 
-        let tipoProduto = prompt("escolha uma seção de 1 a 15")
+        let tipoProduto =parseInt (prompt("escolha uma seção de 1 a 15"));
+        let classificacao;
         switch (tipoProduto) {
             case 1:
-                classificacao = "Alimento não-perecível";
+                 alert ( "Alimento não-perecível");
                 break;
 
-            case 2, 3, 4:
-                classificacao = "Alimento perecível";
+            case 2:
+            case 3:
+            case 4:
+                 alert ( "Alimento perecível");
                 break;
 
-            case 5, 6:
-                classificacao = "Vestuário";
+            case 5:
+            case 6:
+
+                 alert ( "Vestuário");
                 break;
 
             case 7:
-                classificacao = "Higiene pessoal";
+                 alert ( "Higiene pessoal");
                 break;
 
-            case 8, 9, 10, 11, 12, 13, 14, 15:
-                classificacao = "Limpeza e utensílios domésticos";
+            case 8:
+            case 9:
+            case 10:
+            case 11:
+            case 12:
+            case 13:
+            case 14:
+            case 15:
+
+                 alert  ("Limpeza e utensílios domésticos");
                 break;
 
             default:
-                classificacao = "Código inválido";
+                 alert ("Código inválido");
+        
         }
     </script>
 </body>

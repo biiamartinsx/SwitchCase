@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let menu= parseInt(prompt("*-MANE-* \n digite o numero do seu pedido:\n\n 100: Cachorro-Quente- R$ 15,00\n 101:Bauru-Simples- R$ 8,50\n102:Hamburguer-23,70\n103:Pão de queijo-3,00 \n 104:Café expresso-4,50\n105:Suco Natural 500ml-5,00" ));
+
+        let quantidade= parseInt(prompt("Qual a quantia desejada?"));
+        let preçoUnitario;
+        let preçoTotal;
+
+        switch (MENU) {
+            case 100:
+                preçoUnitario=15,0;
+                preçoTotal=preçoUnitario*quantidade;
+                alert("Você comprou"+quantidade+"Cachorro quentes no valor de R$"+preçoTotal )
+                break;
+
+            case 101:
+                preçoUnitario=8,5;
+                preçoTotal=preçoUnitario*quantidade;
+                alert("Você comprou"+quantidade+"Cachorro quentes no valor de R$"+preçoTotal )
+                break;
+
+             case 102:
+                preçoUnitario=23,7;
+                preçoTotal=preçoUnitario*quantidade;
+                alert("Você comprou"+quantidade+"Cachorro quentes no valor de R$"+preçoTotal )
+                break;
+
+             case 103:
+                preçoUnitario=3,0;
+                preçoTotal=preçoUnitario*quantidade;
+                alert("Você comprou"+quantidade+"Cachorro quentes no valor de R$"+preçoTotal )
+                break;
+
+             case 104:
+                preçoUnitario=4,5;
+                preçoTotal=preçoUnitario*quantidade;
+                alert("Você comprou"+quantidade+"Cachorro quentes no valor de R$"+preçoTotal )
+                break;
+
+
+             case 105:
+                preçoUnitario=5.0;
+                preçoTotal=preçoUnitario*quantidade;
+                alert("Você comprou"+quantidade+"Cachorro quentes no valor de R$"+preçoTotal )
+                break;
+
+            default:
+                alert("Não temos essa opção em nosso cardapio.")
+                break;
+        }
+    </script>
+</body>
+</html>
